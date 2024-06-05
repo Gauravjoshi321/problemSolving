@@ -6,7 +6,7 @@ import { Droppable } from 'react-beautiful-dnd';
 const Container = styled.div`
   margin: 4px;
   border: 1px solid grey;
-  min-width: 100px;
+  min-width: 200px;
   padding: 6px;
 
   display: flex;
@@ -21,7 +21,7 @@ const Title = styled.h3`
 const TaskList = styled.div`
   padding: 8px;
   transition: background-color 0.2s ease;
-  /* background-color: ${props => (props.isDraggingOver ? 'skyblue' : 'white')}; */
+  background-color: ${props => (props.isDraggingOver ? 'skyblue' : 'white')};
   flex-grow: 1;
   min-height: 100px;
 `
